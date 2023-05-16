@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "news-app"
+version = "0.1.0"
+description = ""
+authors = ["Elen Bačovská <elen.bacovska@gmail.com>"]
+readme = "README.md"
+packages = [{include = "news_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
